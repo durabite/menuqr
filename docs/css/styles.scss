@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+$lora: 'Lora', serif;
 .menu {
     background-color: #212529;
 }
 body {
-    background-color: black !important;
+    background-color: #000000 !important;
+    color: white !important;
 }
 #logo {
     width: 60%;
     margin: 0 auto;
+}
+.entrada {
+    font-family: $lora;
+    margin: 0 auto;
+    text-align: center;
+}
+.promociones {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px;
 }
